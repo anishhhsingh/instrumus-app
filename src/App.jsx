@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import Navbar from 'https://github.com/anishhhsingh/instrumus-app/blob/main/src/Navbar.jsx';
-import Home from 'https://github.com/anishhhsingh/instrumus-app/blob/main/src/Home.jsx';
-import Explore from 'https://github.com/anishhhsingh/instrumus-app/blob/main/src/Explore.jsx';
-import Planets from 'https://github.com/anishhhsingh/instrumus-app/blob/main/src/Planets.jsx';
+import Navbar from './Navbar.jsx';
+import Home from './Home.jsx';
+import Explore from './Explore.jsx';
+import Planets from './Planets.jsx';
 
 const App = () => {
   const [activeComponent, setActiveComponent] = useState('home');
