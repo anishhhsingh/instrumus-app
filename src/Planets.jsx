@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import LoadingSpinner from './LoadingSpinner';
+import LoadingSpinner from 'https://github.com/anishhhsingh/instrumus-app/blob/main/src/LoadingSpinner';
 
 const Planets = () => {
   const [data, setData] = useState([]);
