@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import LoadingSpinner from 'https://github.com/anishhhsingh/instrumus-app/blob/main/src/LoadingSpinner';
+import LoadingSpinner from './LoadingSpinner';
 
 const Explore = () => {
   const [data, setData] = useState([]);
